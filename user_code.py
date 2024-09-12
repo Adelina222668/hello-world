@@ -18,7 +18,7 @@ def initialize_db():
                 count INTEGER
             )
         ''')
-        cursor.execute
+    
         conn.commit()
         conn.close()
         else: print("Failed to connect to the database.") 
