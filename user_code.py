@@ -18,10 +18,6 @@ def initialize_db():
                 count INTEGER
             )
         ''')
-    
-        conn.commit()
-        conn.close()
-        else: print("Failed to connect to the database.") 
+        cursor.execute
 
-
-AWS_SECRET_ACCESS_KEY = 'wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY' print("AWS Secret Access Key:", AWS_SECRET_ACCESS_KEY)
+AWS_SECRET_ACCESS_KEY='wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY'
